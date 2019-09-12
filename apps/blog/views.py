@@ -120,6 +120,7 @@ class BigCategoryView(View):
 class BigCategoryListView(ListView):
     template_name = 'categorypage.html'
     context_object_name = 'all_articles'
+    paginate_by = 2
 
     def get_queryset(self):
         big_category = BigCategory.objects.get(slug=self.kwargs.get('big_slug'))
@@ -129,6 +130,55 @@ class BigCategoryListView(ListView):
         context = super(BigCategoryListView, self).get_context_data(**kwargs)
         context['big_category'] = BigCategory.objects.get(slug=self.kwargs.get('big_slug'))
         return context
+
+
+class ResourcesView(View):
+    def get(self, request):
+        return render(request, 'resources.html', {
+            'big_category':'resources'
+        })
+
+
+class AboutView(View):
+    def get(self, request):
+        return render(request, 'about.html', {
+            "big_category": 'about'
+        })
+
+
+class MessageView(View):
+    def get(self, request):
+        return render(request, 'message.html', {
+            "big_category": 'message'
+        })
+
+
+class RewardView(View):
+    def get(self, request):
+        return render(request, 'reward.html', {
+            "big_category": 'reward'
+        })
+
+
+class ExchangeView(View):
+    def get(self, request):
+        return render(request, 'exchange.html', {
+            "big_category": 'exchange'
+        })
+
+
+class QuestionView(View):
+    def get(self, request):
+        return render(request, 'question.html', {
+            "big_category": 'question'
+        })
+
+
+class CooperationView(View):
+    def get(self, request):
+        return render(request, 'cooperation.html', {
+            "big_category": 'cooperation'
+        })
 
 
 class ArticleCategoryView(View):
