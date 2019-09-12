@@ -261,6 +261,11 @@ class TagArticleList(ListView):
         tag = ArticleTag.objects.get(name=self.kwargs['tag_name'])
         return Article.objects.filter(tag=tag)
 
+    def get_context_data(self, **kwargs):
+        context = super(TagArticleList, self).get_context_data(**kwargs)
+        context['tag_name'] = self.kwargs.get('tag_name')
+        return context
+
 
 class DateArticleView(View):
     def get(self, request, year, month):
@@ -276,6 +281,12 @@ class DateArticleList(ListView):
 
     def get_queryset(self):
         return Article.objects.filter(add_time__year=self.kwargs['year'], add_time__month=self.kwargs['month'])
+
+    def get_context_data(self, **kwargs):
+        context = super(DateArticleList, self).get_context_data(**kwargs)
+        context['year'] = self.kwargs.get('year')
+        context['month'] = self.kwargs.get('month')
+        return context
 
 
 

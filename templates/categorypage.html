@@ -4,8 +4,12 @@
 {% block title %}
     kenZhang|{% if big_category %}
         {{ big_category.name }}
-    {% else %}
+    {% elif category %}
         {{ category.name }}
+    {% elif tag_name %}
+        {{ tag_name }}
+    {% else %}
+        {{ year }}{{ '-' }}{{ month }}
     {% endif %}
 {% endblock title %}
 
