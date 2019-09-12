@@ -33,7 +33,7 @@ class IndexView(View):
         #     # If page is out of range (e.g. 9999), deliver last page of results.
         #     contacts = paginator.page(paginator.num_pages)
 
-        # 对课程进行分页
+        # 对文章进行分页
         try:
             page = request.GET.get('page', 1)  # 因为用get方法，如果get到的是空，就把1返回，所以下面的异常处理不需要考虑EmptyPage，只需处理PageNotAnInteger一场
         except PageNotAnInteger:
@@ -163,7 +163,7 @@ class TagArticleView(View):
 class TagArticleList(ListView):
     template_name = 'categorypage.html'
     context_object_name = 'all_articles'
-    #paginator_class = Paginator
+    paginate_by = 1
 
     def get_queryset(self):
         tag = ArticleTag.objects.get(name=self.kwargs['tag_name'])
