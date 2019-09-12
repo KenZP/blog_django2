@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14ffdba9-72e6-4c29-b719-f39487ea602a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/req.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requiemenr.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requiement.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requietment.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="14ffdba9-72e6-4c29-b719-f39487ea602a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -282,7 +276,7 @@
       <workItem from="1568250834258" duration="14602000" />
       <workItem from="1568275773714" duration="5302000" />
       <workItem from="1568288952072" duration="20000" />
-      <workItem from="1568289014416" duration="863000" />
+      <workItem from="1568289014416" duration="1241000" />
     </task>
     <task id="LOCAL-00001" summary="Beta1.0">
       <created>1564412065690</created>
@@ -375,11 +369,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568289133767</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update requirement.txt">
+      <created>1568289901183</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1568289901183</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207087000" />
+    <option name="totallyTimeSpent" value="207465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -447,7 +448,8 @@
     <MESSAGE value="modify index for ListView ways and modify paginator" />
     <MESSAGE value="modify article category list as ListView ways and modify paginator" />
     <MESSAGE value="modify click big category show list as ListView ways" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify click big category show list as ListView ways" />
+    <MESSAGE value="update requirement.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="update requirement.txt" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/templates/question.html">
