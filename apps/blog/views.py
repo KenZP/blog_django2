@@ -53,6 +53,19 @@ class IndexView(View):
         })
 
 
+class IndexListView(ListView):
+    template_name = 'index.html'
+    context_object_name = 'articles'
+    queryset = Article.objects.all()
+    paginate_by = 1
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['hot_articles'] = Article.objects.order_by("-like_nums")[:5]
+        context['banner_articles'] = Banner.objects.filter(number__lte=5)
+        return context
+
+
 class BigCategoryView(View):
     def get(self, request, big_slug):
         big_category = BigCategory.objects.get(slug=big_slug)

@@ -2,7 +2,7 @@
 
 from blog.feeds import AllPostsRssFeed
 from .views import IndexView, BigCategoryView, ArticleCategoryView, ArticleDetailView, \
-    TagArticleView, DateArticleView, AddLikeView, ArticleDetail, TagArticleList, DateArticleList  # MessageView
+    TagArticleView, DateArticleView, AddLikeView, ArticleDetail, TagArticleList, DateArticleList, IndexListView  # MessageView
 from users.views import LogoutView, LoginView, RegisterView, ForgetPwdView
 from django.views.decorators.cache import cache_page
 from django.urls import path, re_path, include
@@ -27,7 +27,7 @@ from django.urls import path, re_path, include
 # ]
 app_name = 'blog'
 urlpatterns = [
-    path('', IndexView.as_view(), name="index"),
+    path('', IndexListView.as_view(), name="index"),
     # url(r'^category/(?P<big_slug>.*?)/$', BigCategoryView.as_view(), name="big_category"),
     #re_path(r'^category/(?P<big_slug>[^/]+)/$', BigCategoryView.as_view(), name="big_category"),
     path('category/<slug:big_slug>/', BigCategoryView.as_view(), name="big_category"),
