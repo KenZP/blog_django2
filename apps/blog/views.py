@@ -117,6 +117,20 @@ class BigCategoryView(View):
         })
 
 
+class BigCategoryListView(ListView):
+    template_name = 'categorypage.html'
+    context_object_name = 'all_articles'
+
+    def get_queryset(self):
+        big_category = BigCategory.objects.get(slug=self.kwargs.get('big_slug'))
+        return big_category.get_big_category_article()
+
+    def get_context_data(self, **kwargs):
+        context = super(BigCategoryListView, self).get_context_data(**kwargs)
+        context['big_category'] = BigCategory.objects.get(slug=self.kwargs.get('big_slug'))
+        return context
+
+
 class ArticleCategoryView(View):
     def get(self, request, big_slug, category_slug):
         category = ArticleCategory.objects.get(slug=category_slug)
