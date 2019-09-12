@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14ffdba9-72e6-4c29-b719-f39487ea602a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/apps/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/cooperation.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cooperation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/exchange.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/exchange.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/message.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/message.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/question.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/reward.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/reward.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/req.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requiemenr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requiement.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requietment.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="122" selection-start-line="122" selection-end-line="122" />
+            <state relative-caret-position="282">
+              <caret line="134" column="26" lean-forward="true" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
@@ -182,6 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,7 +192,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,6 +282,7 @@
       <workItem from="1568250834258" duration="14602000" />
       <workItem from="1568275773714" duration="5302000" />
       <workItem from="1568288952072" duration="20000" />
+      <workItem from="1568289014416" duration="863000" />
     </task>
     <task id="LOCAL-00001" summary="Beta1.0">
       <created>1564412065690</created>
@@ -369,21 +368,28 @@
       <option name="project" value="LOCAL" />
       <updated>1568281053535</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="modify click big category show list as ListView ways">
+      <created>1568289133767</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1568289133767</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206224000" />
+    <option name="totallyTimeSpent" value="207087000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20978552" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2124665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32914925" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3268921" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32681563" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.39944133" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -440,7 +446,8 @@
     <MESSAGE value="add paginator function by paginate_by attribute" />
     <MESSAGE value="modify index for ListView ways and modify paginator" />
     <MESSAGE value="modify article category list as ListView ways and modify paginator" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify article category list as ListView ways and modify paginator" />
+    <MESSAGE value="modify click big category show list as ListView ways" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify click big category show list as ListView ways" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/templates/question.html">
@@ -710,8 +717,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        <state relative-caret-position="282">
+          <caret line="134" column="26" lean-forward="true" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
           </folding>
