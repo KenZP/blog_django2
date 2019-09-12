@@ -1,0 +1,21 @@
+﻿{% extends 'base_right.html' %}
+{% load staticfiles %}
+
+{% block title %}
+    kenZhang|{{ big_category.name }}
+{% endblock title %}
+
+{% block description %}
+<meta name="description" content="{{ big_category.description }}"/>
+{% endblock description %}
+{% block keywords %}
+<meta name="keywords" content="{{ big_category.keywords }}"/>
+{% endblock keywords %}
+
+{% block leftcontent %}
+    <!--左侧内容区-->
+    <div class="content-wrap">
+    <h4>暂无资源分享，期待后续开发</h4>
+   </div>
+    <!--左侧内容区结束-->
+{% endblock leftcontent%}

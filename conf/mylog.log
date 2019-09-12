@@ -1,0 +1,205 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Aug  5 21:19:04 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 02 July 2019 08:49:35
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: VM_0_14_centos
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ken/newblog
+detected binary path: /home/ken/py_vm/blog/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ken/newblog
+your processes number limit is 7269
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Aug  5 22:44:29 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 02 July 2019 08:49:35
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: VM_0_14_centos
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ken/newblog
+detected binary path: /home/ken/py_vm/blog/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ken/newblog
+your processes number limit is 7269
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Set PythonHome to /home/ken/py_vm/blog
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x22989f0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x22989f0 pid: 23533 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 23533)
+spawned uWSGI worker 1 (pid: 23535, cores: 1)
+spawned uWSGI worker 2 (pid: 23536, cores: 1)
+spawned uWSGI worker 3 (pid: 23537, cores: 1)
+spawned uWSGI worker 4 (pid: 23538, cores: 1)
+spawned uWSGI worker 5 (pid: 23539, cores: 1)
+spawned uWSGI worker 6 (pid: 23540, cores: 1)
+spawned uWSGI worker 7 (pid: 23541, cores: 1)
+spawned uWSGI worker 8 (pid: 23542, cores: 1)
+spawned uWSGI worker 9 (pid: 23543, cores: 1)
+spawned uWSGI worker 10 (pid: 23544, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Aug  5 22:44:54 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 02 July 2019 08:49:35
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: VM_0_14_centos
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ken/newblog
+detected binary path: /home/ken/py_vm/blog/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ken/newblog
+your processes number limit is 7269
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Set PythonHome to /home/ken/py_vm/blog
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1581a40
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1581a40 pid: 23578 (default app)
+spawned uWSGI master process (pid: 23578)
+spawned uWSGI worker 1 (pid: 23580, cores: 1)
+spawned uWSGI worker 2 (pid: 23581, cores: 1)
+spawned uWSGI worker 3 (pid: 23582, cores: 1)
+spawned uWSGI worker 4 (pid: 23583, cores: 1)
+spawned uWSGI worker 5 (pid: 23584, cores: 1)
+spawned uWSGI worker 6 (pid: 23585, cores: 1)
+spawned uWSGI worker 7 (pid: 23586, cores: 1)
+spawned uWSGI worker 8 (pid: 23587, cores: 1)
+spawned uWSGI worker 9 (pid: 23588, cores: 1)
+spawned uWSGI worker 10 (pid: 23589, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Aug  5 23:14:08 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 02 July 2019 08:49:35
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: VM_0_14_centos
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ken/newblog
+detected binary path: /home/ken/py_vm/blog/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ken/newblog
+your processes number limit is 7269
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Set PythonHome to /home/ken/py_vm/blog
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1d44a40
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1d44a40 pid: 27750 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 27750)
+spawned uWSGI worker 1 (pid: 27760, cores: 1)
+spawned uWSGI worker 2 (pid: 27761, cores: 1)
+spawned uWSGI worker 3 (pid: 27762, cores: 1)
+spawned uWSGI worker 4 (pid: 27763, cores: 1)
+spawned uWSGI worker 5 (pid: 27764, cores: 1)
+spawned uWSGI worker 6 (pid: 27765, cores: 1)
+spawned uWSGI worker 7 (pid: 27766, cores: 1)
+spawned uWSGI worker 8 (pid: 27767, cores: 1)
+spawned uWSGI worker 9 (pid: 27768, cores: 1)
+spawned uWSGI worker 10 (pid: 27769, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Aug  6 09:54:36 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 02 July 2019 08:49:35
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: VM_0_14_centos
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ken/newblog
+detected binary path: /home/ken/py_vm/blog/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ken/newblog
+your processes number limit is 7269
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.6.8 (default, Apr 25 2019, 21:02:35)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Set PythonHome to /home/ken/py_vm/blog
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x87ea30
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x87ea30 pid: 326 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 326)
+spawned uWSGI worker 1 (pid: 328, cores: 1)
+spawned uWSGI worker 2 (pid: 329, cores: 1)
+spawned uWSGI worker 3 (pid: 330, cores: 1)
+spawned uWSGI worker 4 (pid: 331, cores: 1)
+spawned uWSGI worker 5 (pid: 332, cores: 1)
+spawned uWSGI worker 6 (pid: 333, cores: 1)
+spawned uWSGI worker 7 (pid: 334, cores: 1)
+spawned uWSGI worker 8 (pid: 335, cores: 1)
+spawned uWSGI worker 9 (pid: 336, cores: 1)
+spawned uWSGI worker 10 (pid: 337, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+goodbye to uWSGI.
