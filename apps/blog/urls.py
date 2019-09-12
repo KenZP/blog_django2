@@ -2,7 +2,8 @@
 
 from blog.feeds import AllPostsRssFeed
 from .views import IndexView, BigCategoryView, ArticleCategoryView, ArticleDetailView, \
-    TagArticleView, DateArticleView, AddLikeView, ArticleDetail, TagArticleList, DateArticleList, IndexListView  # MessageView
+    TagArticleView, DateArticleView, AddLikeView, ArticleDetail, TagArticleList, \
+    DateArticleList, IndexListView, ArticleCategoryListView  # MessageView
 from users.views import LogoutView, LoginView, RegisterView, ForgetPwdView
 from django.views.decorators.cache import cache_page
 from django.urls import path, re_path, include
@@ -32,7 +33,7 @@ urlpatterns = [
     #re_path(r'^category/(?P<big_slug>[^/]+)/$', BigCategoryView.as_view(), name="big_category"),
     path('category/<slug:big_slug>/', BigCategoryView.as_view(), name="big_category"),
     #re_path(r'^category/(?P<big_slug>[^/]+)/(?P<category_slug>[^/]+)/$', ArticleCategoryView.as_view(), name="article_category"),
-    path('category/<slug:big_slug>/<slug:category_slug>/', ArticleCategoryView.as_view(),name="article_category"),
+    path('category/<slug:big_slug>/<slug:category_slug>/', ArticleCategoryListView.as_view(),name="article_category"),
     #re_path(r'^article/(?P<article_id>\d+)/$', ArticleDetailView.as_view(), name="article_detail"),
     path('article/<int:pk>/', ArticleDetail.as_view(), name="article_detail"),
     #re_path(r'^tag/(?P<tag_name>[^/]+)/$', TagArticleView.as_view(), name="tag"),

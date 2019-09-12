@@ -138,6 +138,21 @@ class ArticleCategoryView(View):
         })
 
 
+class ArticleCategoryListView(ListView):
+    template_name = 'categorypage.html'
+    context_object_name = 'all_articles'
+    paginate_by = 5
+
+    def get_queryset(self):
+        category = ArticleCategory.objects.get(slug=self.kwargs.get('category_slug'))
+        return Article.objects.filter(category=category)
+
+    def get_context_data(self, **kwargs):
+        context = super(ArticleCategoryListView, self).get_context_data(**kwargs)
+        context['category'] = ArticleCategory.objects.get(slug=self.kwargs.get('category_slug'))
+        return context
+
+
 class ArticleDetailView(View):
     def get(self, request, pk):
         articles = Article.objects.get(id=int(pk))
