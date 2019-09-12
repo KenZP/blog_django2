@@ -50,9 +50,10 @@
 				<a style="color: #f78585" href="javascript:;" data-action="ding" data-id="{{ hot_article.id }}" class="Addlike" id="action">
 				<i style="color: #f78585" class="fa fa-heart-o"></i><span style="color: #f78585" class="count">{{ hot_article.like_nums }}</span> 喜欢</a>
 				</span> 
-				</p> 
+				</p>
 				<span class="label label-1">{{ forloop.counter }}</span> 
-				<a href="{% url 'blog:article_detail' hot_article.id %}" title="{{ hot_article.title }}">{{ hot_article.title }}</a>
+				<a href="{{ hot_article.get_absolute_url }}" title="{{ hot_article.title }}">{{ hot_article.title }}</a>
+{#               {% url 'blog:article_detail' hot_article.id %}#}
 				</li>
            {% endfor %}
 
@@ -61,11 +62,12 @@
      </div>
       {% for article in articles %}
       <article class="excerpt">
-      <header><a class="label label-important" href="{% url 'blog:article_category'  article.category.bigCategory.slug article.category.slug %}">{{ article.category.name }}<i class="label-arrow"></i></a>
-       <h2><a target="_blank" href="{% url 'blog:article_detail' article.id %}" title="{{ article.title }}">{{ article.title }} </a></h2>
+{#      {% url 'blog:article_category'  article.category.bigCategory.slug article.category.slug %}#}
+      <header><a class="label label-important" href="{{ article.category.get_absolute_url }}">{{ article.category.name }}<i class="label-arrow"></i></a>
+       <h2><a target="_blank" href="{{ article.get_absolute_url }}" title="{{ article.title }}">{{ article.title }} </a></h2>
       </header>
       <div class="focus">
-	  		<a target="_blank" href="{% url 'blog:article_detail' article.id %}">
+	  		<a target="_blank" href="{{ article.get_absolute_url }}">
 			   <img class="thumb" width="200" height="123" src="{{ MEDIA_URL }}{{ article.image }}" alt="{{ article.title }}"/> 
 			   </a>
       </div>

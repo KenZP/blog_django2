@@ -106,7 +106,7 @@
      <ul>
         {% get_like_articles as like_articles %}
          {% for like_article in like_articles %}
-             <li> <a href="{% url 'blog:article_detail' like_article.id %} " title="{{ like_article.title }}">
+             <li> <a href="{{ like_article.get_absolute_url }} " title="{{ like_article.title }}">
 			 <span class="thumbnail"><img src="{{ MEDIA_URL }}{{ like_article.image }}" alt="{{ like_article.title }}"></span> 
 			 <span class="text">{{ like_article.title }}</span>&nbsp; 
 			 <i class="fa fa-calendar" aria-hidden="true"></i> 
@@ -128,7 +128,7 @@
      <div class="d_tags">
          {% for tag in tags %}
              {% get_tag_article_list tag as tag_articles %}
-             <a title="{{ tag_articles.count }}个话题" href="{% url 'blog:tag' tag.name %}">{{ tag.name }} ({{ tag_articles.count }})</a>
+             <a title="{{ tag_articles.count }}个话题" href="{{ tag.get_absolute_url }}">{{ tag.name }} ({{ tag_articles.count }})</a>
          {% endfor %}
      </div>
     </div>

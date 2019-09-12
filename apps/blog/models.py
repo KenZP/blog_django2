@@ -143,7 +143,7 @@ class Article(models.Model):
         return self.tag.all()
 
     def get_absolute_url(self):
-        return reverse('blog:article_detail', kwargs={'article_id': self.id})
+        return reverse('blog:article_detail', kwargs={'pk': self.pk})
 
     def __str__(self):
         return self.title
