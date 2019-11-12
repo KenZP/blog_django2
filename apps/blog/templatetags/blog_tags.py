@@ -6,7 +6,7 @@ register = template.Library()
 
 @register.simple_tag
 def get_big_category():
-    return BigCategory.objects.all()
+    return BigCategory.objects.filter(is_active=True)
 
 
 @register.simple_tag

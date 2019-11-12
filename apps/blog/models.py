@@ -48,6 +48,7 @@ class ArticleTag(models.Model):
 class BigCategory(models.Model):
     name = models.CharField(max_length=10, default="", verbose_name="大分类")
     slug = models.SlugField(unique=True, default="",verbose_name="大分类唯一标识")
+    is_active = models.BooleanField(default=True, blank=True, verbose_name='是否在菜单栏显示')
     description = models.TextField(max_length=240, default=settings.SITE_DESCRIPTION, verbose_name='大分类描述',
                                    help_text='用来作为SEO中description,长度参考SEO标准')
     keywords = models.TextField(verbose_name='关键字', max_length=240, default=settings.SITE_KEYWORDS,

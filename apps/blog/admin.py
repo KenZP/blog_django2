@@ -17,9 +17,9 @@ class ArticleTagAdmin(admin.ModelAdmin):
 
 
 class BigCategoryAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name', 'slug', 'add_time')
+    list_display = ('id', 'name', 'slug', 'is_active', 'add_time')
     list_display_links = ['name']
-    fields = ['name', 'slug']
+    fields = ['name', 'slug', 'is_active']
 
 
 class ArticleCategoryAdmin(admin.ModelAdmin):
