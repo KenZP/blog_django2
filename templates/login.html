@@ -57,9 +57,15 @@
                         <a class="fr" href="{% url 'blog:register' %}">忘记密码？</a>
                      </div>
                      <input style="position: relative;top: 10px;width:100px;height:40px;background: whitesmoke;color: #f78585" id="jsLoginBtn" type="submit" value="立即登录 > " />
+                <div>
+                    <br>
+                    <span>第三方账号登录：</span>
+                    <i class="fa fa-github"></i>
+                    <a style="color: green" href="{% url 'social:begin' 'github' %}" title="Github登录">Git登录</a>
+                </div>
                 {% csrf_token %}
                 </form>
-                <p style="position: relative;left: 1px;top: 70px" class="form-p">没有Blog帐号？<a href="{% url 'blog:register' %}">[立即注册]</a></p>
+                <p style="position: relative;left: 1px;top: 60px" class="form-p">没有Blog帐号？<a href="{% url 'blog:register' %}">[立即注册]</a></p>
             </div>
         </div>
     </div>

@@ -264,10 +264,15 @@
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-sign-out" aria-hidden="true"></i>
                     <a href="{% url 'blog:logout' %}">退出</a>
             {% else %}
-                <i class="fa fa-power-off"></i>
-                <a href="{% url 'blog:login' %}">登录</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <i class="fa fa-user-plus"></i>
-                <a href="{% url 'blog:register' %}">注册</a>
+{#                <div>#}
+{#                    <span>第三方账号登录：</span>#}
+{#                    <i class="fa fa-github"></i>#}
+{#                    <a href="{% url 'social:begin' 'github' %}" title="Github登录">Git登录</a>#}
+                    <i class="fa fa-power-off"></i>
+                    <a href="{% url 'blog:login' %}">登录</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fa fa-user-plus"></i>
+                    <a href="{% url 'blog:register' %}">注册</a>
+{#                </div>#}
             {% endif %}
     </div>
     <!--登录注册结束-->

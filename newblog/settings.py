@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'blog.apps.BlogConfig',
     'users.apps.UsersConfig',
     'captcha',
-    'DjangoUeditor'
+    'DjangoUeditor',
+    'social_django'
 ]
 AUTH_USER_MODEL = 'users.UserPro'
 
@@ -78,6 +79,8 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
+                'social_django.context_processors.backends',
+                'social_django.context_processors.login_redirect',
             ],
         },
     },
@@ -176,3 +179,21 @@ CACHES = {
 }
 
 # CACHE_MIDDLEWARE_SECONDS= 60 * 60 * 12
+
+AUTHENTICATION_BACKENDS = (
+    #'social_core.backends.qq.QQOAuth2',
+    #'social_core.backends.weixin.WeixinOAuth2',
+    'social_core.backends.github.GithubOAuth2',
+    'django.contrib.auth.backends.ModelBackend',
+)
+
+SOCIAL_AUTH_URL_NAMESPACE = 'social' # 新增
+
+# 填写Github中获取到的KEY和SECRET
+
+SOCIAL_AUTH_GITHUB_KEY = '你的Client ID'
+SOCIAL_AUTH_GITHUB_SECRET = '你的Client Secret'
+SOCIAL_AUTH_GITHUB_USE_OPENID_AS_USERNAME = True
+
+# 登陆成功后的回调路由
+SOCIAL_AUTH_LOGIN_REDIRECT_URL = '/' # 登陆成功之后的路由，可以自定义要返回到那个页面，此处返回到首页

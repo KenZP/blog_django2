@@ -41,6 +41,7 @@ urlpatterns = [
     re_path(r'^sitemap\.xml$', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap'),  # 网站地图
     # favicon.cio
     re_path(r'^favicon\.ico$',RedirectView.as_view(url=r'static/images/blog.ico')),
+    path('login/github/', include('social_django.urls', namespace='social')),
 ]
 
 # 全局404页面配置
