@@ -48,6 +48,11 @@ INSTALLED_APPS = [
     'ckeditor',
     'ckeditor_uploader'
 ]
+
+from social_django.config import PythonSocialAuthConfig
+
+PythonSocialAuthConfig.verbose_name = 'Github用户'
+
 AUTH_USER_MODEL = 'users.UserPro'
 
 SITE_ID = 1
@@ -222,3 +227,7 @@ CKEDITOR_CONFIGS = {
         'extraPlugins': ['codesnippet','markdown'],
     }
 }
+
+SIMPLEUI_LOGO = 'http://img.0a0z.cn/BlogPhoto/20200105133312.png'
+SIMPLEUI_HOME_INFO = False
+SIMPLEUI_ANALYSIS = False
