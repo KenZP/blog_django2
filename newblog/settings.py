@@ -43,8 +43,10 @@ INSTALLED_APPS = [
     'blog.apps.BlogConfig',
     'users.apps.UsersConfig',
     'captcha',
-    'DjangoUeditor',
-    'social_django'
+    # 'DjangoUeditor',
+    'social_django',
+    'ckeditor',
+    'ckeditor_uploader'
 ]
 AUTH_USER_MODEL = 'users.UserPro'
 
@@ -154,6 +156,7 @@ STATICFILES_DIRS = (
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+CKEDITOR_UPLOAD_PATH = 'article/'
 
 EMAIL_HOST = "smtp.163.com"
 EMAIL_PORT = 25
@@ -197,3 +200,25 @@ SOCIAL_AUTH_GITHUB_USE_OPENID_AS_USERNAME = True
 
 # 登陆成功后的回调路由
 SOCIAL_AUTH_LOGIN_REDIRECT_URL = '/' # 登陆成功之后的路由，可以自定义要返回到那个页面，此处返回到首页
+
+
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': (['div', 'Source', '-', 'Save', 'NewPage', 'Preview', '-', 'Templates'],
+                    ['Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Print', 'SpellChecker', 'Scayt'],
+                    ['Undo', 'Redo', '-', 'Find', 'Replace', '-', 'SelectAll', 'RemoveFormat', '-', 'Maximize',
+                     'ShowBlocks', '-', 'Subscript', 'Superscript', 'Markdown'],
+                    ['Form', 'Checkbox', 'Radio', 'TextField', 'Textarea', 'Select', 'Button', 'ImageButton',
+                     'HiddenField'],
+                    ['Bold', 'Italic', 'Underline', 'Strike', '-'],
+                    ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', 'Blockquote'],
+                    ['JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'],
+                    ['Link', 'Unlink', 'Anchor'],
+                    ['Image', 'Flash', 'Table', 'HorizontalRule', 'Smiley', 'SpecialChar', 'PageBreak'],
+                    ['Styles', 'Format', 'Font', 'FontSize'],
+                    ['TextColor', 'BGColor', 'CodeSnippet'],
+
+                    ),
+        'extraPlugins': ['codesnippet','markdown'],
+    }
+}

@@ -1,5 +1,6 @@
 import datetime
 
+from ckeditor_uploader.fields import RichTextUploadingField
 from django.db import models
 from django.urls import reverse
 
@@ -109,8 +110,9 @@ class Article(models.Model):
     title = models.CharField(max_length=30, default="", verbose_name="文章标题")
     description = models.TextField(default="",blank=True, verbose_name="文章简介")
     # body = models.TextField(default="", verbose_name="文章内容")
-    body = UEditorField(width=900, height=600, toolbars="full", default="", imagePath="images/%(basename)s_%(datetime)s.%(extname)s",
-                        filePath="files/",verbose_name="文章内容")
+    # body = UEditorField(width=900, height=600, toolbars="full", default="", imagePath="images/%(basename)s_%(datetime)s.%(extname)s",
+    #                     filePath="files/",verbose_name="文章内容")
+    body = RichTextUploadingField(default='', verbose_name="文章内容")
     image = models.ImageField(upload_to="article/%Y/%m", default="", verbose_name="文章封面", max_length=100)
     read_nums = models.IntegerField(default=0, verbose_name="浏览人数")
     content_nums = models.IntegerField(default=0, verbose_name="评论数")

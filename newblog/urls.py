@@ -42,6 +42,7 @@ urlpatterns = [
     # favicon.cio
     re_path(r'^favicon\.ico$',RedirectView.as_view(url=r'static/images/blog.ico')),
     path('login/github/', include('social_django.urls', namespace='social')),
+    re_path(r'ckeditor/', include('ckeditor_uploader.urls')),
 ]
 
 # 全局404页面配置
