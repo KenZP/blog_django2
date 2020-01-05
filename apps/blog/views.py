@@ -7,6 +7,8 @@ from django.shortcuts import render
 from django.views import View
 from django.views.decorators.csrf import csrf_exempt
 from django.views.generic import ListView, DetailView
+import markdown
+
 from .models import Article, BigCategory, ArticleCategory, Banner, ArticleTag
 
 
@@ -239,6 +241,11 @@ class ArticleDetail(DetailView):
         obj = super().get_object()
         obj.read_nums += 1
         obj.save()
+        obj.body = markdown.markdown(obj.body, extensions=[
+            'markdown.extensions.extra',
+            'markdown.extensions.codehilite',
+            'markdown.extensions.toc',
+        ])
         return obj
 
 

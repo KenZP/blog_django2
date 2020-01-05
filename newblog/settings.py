@@ -45,8 +45,8 @@ INSTALLED_APPS = [
     'captcha',
     # 'DjangoUeditor',
     'social_django',
-    'ckeditor',
-    'ckeditor_uploader'
+    # 'ckeditor',
+    # 'ckeditor_uploader'
 ]
 
 from social_django.config import PythonSocialAuthConfig
