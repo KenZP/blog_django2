@@ -98,26 +98,26 @@ WSGI_APPLICATION = 'newblog.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#     }
-# }
 DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.mysql',
-            'HOST': '127.0.0.1',
-            'USER': 'root',
-            'PASSWORD': 'root',
-            'NAME': 'blog',
-            # 避免映射数据库时出现警告
-            'OPTIONS': {
-                'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
-                'charset': 'utf8mb4',
-            },
-        }
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
 }
+# DATABASES = {
+#         'default': {
+#             'ENGINE': 'django.db.backends.mysql',
+#             'HOST': '127.0.0.1',
+#             'USER': 'root',
+#             'PASSWORD': 'root',
+#             'NAME': 'blog',
+#             # 避免映射数据库时出现警告
+#             'OPTIONS': {
+#                 'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+#                 'charset': 'utf8mb4',
+#             },
+#         }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
