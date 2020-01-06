@@ -44,9 +44,9 @@ def get_banner_right():
 
 @register.simple_tag
 def get_friend_link():
-    return FriendLink.objects.all().order_by('-add_date')
+    return FriendLink.objects.all().filter(is_active=True).order_by('-add_date')
 
 
 @register.simple_tag
 def get_notice():
-    return Notice.objects.all().order_by('-add_date')[:1]
+    return Notice.objects.all().filter(is_active=True).order_by('-add_date')[:1]
