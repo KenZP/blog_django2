@@ -10,3 +10,6 @@
 ## 个人博客地址 www.0a0z.cn
 
 ## 欢迎来撩 ^^
+
+## Update
+### 新建branch AmazeUIblog,使用AmazeUI前段模板去替换之前的前段模板. AmazeUI前段模板比之前的模板更优化，简洁。
