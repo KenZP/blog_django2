@@ -2,14 +2,7 @@
 <project version="4">
   <component name="PublishConfigData">
     <serverData>
-      <paths name="Copy of project-level server 'ken@106.52.117.248:22'">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="ken@106.52.117.248:22">
+      <paths name="ken">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

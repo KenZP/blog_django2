@@ -1,13 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="14ffdba9-72e6-4c29-b719-f39487ea602a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/newblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/newblog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/newblog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+    <list default="true" id="bf8372cb-64b1-4de1-b84f-689ca2988136" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/blog/migrations/0004_auto_20200630_1630.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/blog/migrations/0006_auto_20200704_1051.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/arta.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/ascetic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/atelier-dune.dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/atelier-dune.light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/atelier-forest.dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/atelier-forest.light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/atelier-heath.dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/atelier-heath.light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/atelier-lakeside.dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/atelier-lakeside.light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/atelier-seaside.dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/atelier-seaside.light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/brown_paper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/brown_papersq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/docco.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/far.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/googlecode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/idea.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/ir_black.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/magula.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/mono-blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/monokai_sublime.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/obsidian.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/paraiso.dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/paraiso.light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/pojoaque.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/pojoaque.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/railscasts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/rainbow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/school_book.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/school_book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/solarized_dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/solarized_light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/sunburst.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/tomorrow-night-blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/tomorrow-night-bright.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/tomorrow-night-eighties.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/tomorrow-night.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/tomorrow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/highlights/xcode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/highlight.pack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/newblog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog_django2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/migrations/0002_auto_20190728_2013.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/migrations/0003_auto_20190802_2101.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/migrations/0004_auto_20190803_2203.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/migrations/0003_auto_20200630_1628.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/migrations/0005_article_keyword.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/migrations/0006_auto_20190807_0939.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/migrations/0007_auto_20190807_0943.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/migrations/0008_auto_20190807_0951.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/migrations/0009_remove_article_keyword.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/migrations/0010_auto_20190807_0954.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/migrations/0011_auto_20190807_1022.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/migrations/0012_auto_20190807_1030.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/migrations/0013_auto_20190807_1034.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/migrations/0014_auto_20190807_1046.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/migrations/0015_bigcategory_description.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/migrations/0016_auto_20190807_1128.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/migrations/0017_articlecategory_description.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/migrations/0018_article_update_date.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/migrations/0019_auto_20190902_1019.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/migrations/0020_auto_20190912_1000.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/migrations/0021_bigcategory_is_active.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/migrations/0022_auto_20200102_2206.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/migrations/0005_auto_20200704_0953.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/migrations/0023_auto_20200102_2212.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/migrations/0002_auto_20200630_1620.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0002_auto_20190722_2040.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/migrations/0003_auto_20200630_1624.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0003_auto_20190722_2042.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/migrations/0006_auto_20200704_0953.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0004_auto_20190722_2134.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0005_auto_20190722_2142.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0006_auto_20190724_2143.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0007_auto_20190725_2127.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0008_auto_20190725_2130.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0009_userpro_image.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0010_auto_20190726_2008.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/migrations/0005_auto_20200704_0950.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0011_auto_20190726_2020.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0012_auto_20190726_2048.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0013_auto_20190726_2103.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0014_auto_20190727_0007.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0015_auto_20190727_0024.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0016_auto_20190727_1556.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0017_auto_20190727_1605.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0018_auto_20190727_1607.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0019_auto_20190727_1610.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0020_auto_20190727_1614.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0021_auto_20190727_1619.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0022_auto_20190727_1623.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0023_auto_20190802_2101.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0024_auto_20190803_1937.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0025_auto_20190803_1938.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0026_emailverifyrecord.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0027_auto_20190806_1805.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0028_auto_20190806_1806.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0029_auto_20190806_1832.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0030_auto_20190807_0928.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0031_auto_20190807_0943.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0032_auto_20190807_0947.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0033_auto_20190807_0950.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0034_auto_20190807_0951.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0035_auto_20190807_0952.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0036_auto_20190807_1022.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0037_auto_20190807_1036.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0038_auto_20190807_1138.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0039_auto_20190807_1151.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0040_auto_20190807_1602.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0041_auto_20190807_1823.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0042_auto_20190807_1823.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0043_auto_20190807_2047.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0044_auto_20190807_2116.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0045_auto_20190808_1600.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0046_auto_20190902_1019.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0047_auto_20190902_1450.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0048_auto_20190912_1000.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0049_auto_20191204_1733.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/migrations/0002_auto_20200413_1429.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0049_auto_20200102_2206.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/migrations/0004_auto_20200630_1632.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/highlights/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/highlights/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/highlights/github.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/highlights/github.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/highlights/monokai.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/highlights/monokai.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/highlights/vs.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/highlights/vs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/highlights/zenburn.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/highlights/zenburn.css" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,323 +159,64 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/blog/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5654">
-              <caret line="266" column="22" selection-start-line="266" selection-start-column="22" selection-end-line="266" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/blog/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="50" column="84" selection-start-line="50" selection-start-column="84" selection-end-line="50" selection-end-column="84" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/blog/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/blog/templatetags/blog_tags.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/newblog/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="198" column="70" selection-start-line="198" selection-start-column="70" selection-end-line="198" selection-end-column="70" />
-              <folding>
-                <element signature="e#312#321#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newblog/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="43" column="77" lean-forward="true" selection-start-line="43" selection-start-column="77" selection-end-line="43" selection-end-column="77" />
-              <folding>
-                <element signature="e#684#730#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="259" column="75" lean-forward="true" selection-start-line="259" selection-start-column="75" selection-end-line="259" selection-end-column="75" />
-              <folding>
-                <element signature="e#11938#11944#0#HTML" expanded="true" />
-                <element signature="e#11944#11950#0#HTML" expanded="true" />
-                <element signature="e#11950#11956#0#HTML" expanded="true" />
-                <element signature="e#11956#11962#0#HTML" expanded="true" />
-                <element signature="e#11962#11968#0#HTML" expanded="true" />
-                <element signature="e#11968#11974#0#HTML" expanded="true" />
-                <element signature="e#12580#12586#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="65" column="32" lean-forward="true" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/blog/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>30px</find>
-      <find>header-box</find>
-      <find>um_id</find>
-      <find>bigfa_like</find>
-      <find>article</find>
-      <find>fav_type</find>
-      <find>end_js</find>
-      <find>addlike</find>
-      <find>addlove</find>
-      <find>Addlove1</find>
-      <find>qrcodes</find>
-      <find>Addlike</find>
-      <find>.video</find>
-      <find>metaslider_2698</find>
-      <find>video</find>
-      <find>nivoSlider</find>
-      <find>action</find>
-      <find>id</find>
-      <find>f1</find>
-      <find>login-box</find>
-      <find>fl form-box</find>
-      <find>form-box</find>
-      <find>clearfix</find>
-      <find>register</find>
-      <find>form-group</find>
-      <find>btn-green</find>
-      <find>captcha_captchastore</find>
-      <find>login</find>
-      <find>jsEmailRegBtn</find>
-      <find>STATIC_ROOT</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>KenZhang</replace>
-      <replace>XX</replace>
-      <replace>Addlike</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>F:\Python\newblog</dir>
-      <dir>H:\newblog</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/blog/apps.py" />
-        <option value="$PROJECT_DIR$/users/apps.py" />
-        <option value="$PROJECT_DIR$/templates/1.html" />
-        <option value="$PROJECT_DIR$/blog/admin.py" />
-        <option value="$PROJECT_DIR$/blog/models.py" />
-        <option value="$PROJECT_DIR$/users/admin.py" />
-        <option value="$PROJECT_DIR$/users/models.py" />
-        <option value="$PROJECT_DIR$/blog/views.py" />
-        <option value="$PROJECT_DIR$/apps/users/admin.py" />
-        <option value="$PROJECT_DIR$/blog/urls.py" />
-        <option value="$PROJECT_DIR$/apps/blog/apps.py" />
-        <option value="$PROJECT_DIR$/apps/users/apps.py" />
-        <option value="$PROJECT_DIR$/apps/blog/migrations/0001_initial.py" />
-        <option value="$PROJECT_DIR$/static/css/reset.css" />
-        <option value="$PROJECT_DIR$/templates/test.html" />
-        <option value="$PROJECT_DIR$/static/js/addlike.js" />
-        <option value="$PROJECT_DIR$/static/css/login.css" />
-        <option value="$PROJECT_DIR$/templates/register.html" />
-        <option value="$PROJECT_DIR$/apps/users/models.py" />
-        <option value="$PROJECT_DIR$/apps/utils/email_send.py" />
-        <option value="$PROJECT_DIR$/apps/users/forms.py" />
-        <option value="$PROJECT_DIR$/apps/users/views.py" />
-        <option value="$PROJECT_DIR$/newblog/wsgi.py" />
-        <option value="D:/Anaconda/envs/django2/Lib/site-packages/django/forms/boundfield.py" />
-        <option value="$PROJECT_DIR$/apps/blog/urls.py" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/article.html" />
-        <option value="$PROJECT_DIR$/templates/base_right.html" />
-        <option value="$PROJECT_DIR$/templates/about.html" />
-        <option value="$PROJECT_DIR$/templates/resources.html" />
-        <option value="$PROJECT_DIR$/templates/reward.html" />
-        <option value="$PROJECT_DIR$/templates/message.html" />
-        <option value="$PROJECT_DIR$/templates/exchange.html" />
-        <option value="$PROJECT_DIR$/templates/question.html" />
-        <option value="$PROJECT_DIR$/templates/cooperation.html" />
-        <option value="$PROJECT_DIR$/apps/blog/views.py" />
-        <option value="$PROJECT_DIR$/templates/categorypage.html" />
-        <option value="$PROJECT_DIR$/apps/blog/models.py" />
-        <option value="$PROJECT_DIR$/apps/blog/admin.py" />
-        <option value="$PROJECT_DIR$/apps/blog/templatetags/blog_tags.py" />
-        <option value="$PROJECT_DIR$/newblog/urls.py" />
-        <option value="$PROJECT_DIR$/templates/login.html" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/newblog/settings.py" />
-      </list>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="AmazeUIblog" />
+      </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="blog_django2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog_django2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog_django2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog_django2" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog_django2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog_django2" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog_django2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog_django2" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templatetags" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog_django2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog_django2" type="462c0819:PsiDirectoryNode" />
-              <item name="newblog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog_django2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog_django2" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1aTUIk3gOXTu6gsyUPCiaYBfNEK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../newblog" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Python\newblog\apps" />
-      <recent name="F:\Python\newblog" />
-      <recent name="F:\Python\newblog\static\images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Python\newblog\extra_apps" />
-      <recent name="F:\Python\newblog\templates" />
-      <recent name="F:\Python\newblog\apps\utils" />
-      <recent name="F:\Python\newblog\static\images" />
-      <recent name="F:\Python\newblog\static\css" />
+      <recent name="F:\Study\Python\blog_django2\templates" />
+      <recent name="F:\Study\Python\blog_django2\static" />
+      <recent name="F:\Study\Python\blog_django2\static\images" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
-    <configuration name="newblog" type="Python.DjangoServer" factoryName="Django server">
-      <module name="newblog" />
+  <component name="RunManager" selected="Django Server.blog_django2">
+    <configuration name="Test: apps.blog.tests.test_smoke.SmokeTestCase" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="blog_django2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="apps.blog.tests.test_smoke.SmokeTestCase" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="blog_django2" type="Python.DjangoServer" factoryName="Django server">
+      <module name="blog_django2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -341,12 +225,12 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
-      <option name="host" value="127.0.0.1" />
+      <option name="host" value="" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
@@ -355,233 +239,73 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: apps.blog.tests.test_smoke.SmokeTestCase" />
+        <item itemvalue="Django tests.Test: apps.blog.tests.test_smoke.SmokeTestCase" />
+        <item itemvalue="Django tests.Test: apps.blog.tests.test_smoke.SmokeTestCase" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="14ffdba9-72e6-4c29-b719-f39487ea602a" name="Default Changelist" comment="" />
-      <created>1563793838516</created>
+      <changelist id="bf8372cb-64b1-4de1-b84f-689ca2988136" name="Default Changelist" comment="" />
+      <created>1578298219884</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1563793838516</updated>
-      <workItem from="1563793840385" duration="10994000" />
-      <workItem from="1563967090354" duration="12247000" />
-      <workItem from="1564059617752" duration="5893000" />
-      <workItem from="1564138210858" duration="20337000" />
-      <workItem from="1564213442908" duration="16440000" />
-      <workItem from="1564232561956" duration="8181000" />
-      <workItem from="1564271741203" duration="45939000" />
-      <workItem from="1564404616872" duration="8646000" />
-      <workItem from="1564484962961" duration="11179000" />
-      <workItem from="1564573473023" duration="9707000" />
-      <workItem from="1564660607962" duration="10577000" />
-      <workItem from="1564748828812" duration="6393000" />
-      <workItem from="1564796077699" duration="18884000" />
-      <workItem from="1568193190788" duration="883000" />
-      <workItem from="1568250834258" duration="14602000" />
-      <workItem from="1568275773714" duration="5302000" />
-      <workItem from="1568288952072" duration="20000" />
-      <workItem from="1568289014416" duration="4183000" />
-      <workItem from="1568293923341" duration="1629000" />
-      <workItem from="1572060124798" duration="54000" />
-      <workItem from="1573555104304" duration="1073000" />
-      <workItem from="1573628153483" duration="4823000" />
+      <updated>1578298219884</updated>
+      <workItem from="1578298222751" duration="931000" />
+      <workItem from="1578304277115" duration="25000" />
+      <workItem from="1578555677800" duration="666000" />
+      <workItem from="1579242385100" duration="149000" />
+      <workItem from="1579415946283" duration="27000" />
+      <workItem from="1586759001099" duration="2715000" />
+      <workItem from="1586825746854" duration="597000" />
+      <workItem from="1587439349697" duration="12000" />
+      <workItem from="1587439512598" duration="219000" />
+      <workItem from="1587440234763" duration="917000" />
+      <workItem from="1587458305823" duration="4000" />
+      <workItem from="1589011735423" duration="81000" />
+      <workItem from="1592199767087" duration="1453000" />
+      <workItem from="1592271642680" duration="600000" />
+      <workItem from="1593413313789" duration="12154000" />
     </task>
-    <task id="LOCAL-00001" summary="Beta1.0">
-      <created>1564412065690</created>
+    <task id="LOCAL-00001" summary="update readme.md">
+      <created>1578555721635</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1564412065690</updated>
+      <updated>1578555721636</updated>
     </task>
-    <task id="LOCAL-00002" summary="Beta1.0">
-      <created>1564412432042</created>
+    <task id="LOCAL-00002" summary="remove spring count down">
+      <created>1593504929000</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1564412432042</updated>
+      <updated>1593504929000</updated>
     </task>
-    <task id="LOCAL-00003" summary="Beta1.0">
-      <created>1564412508024</created>
+    <task id="LOCAL-00003" summary="update test">
+      <created>1593828661522</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1564412508024</updated>
+      <updated>1593828661522</updated>
     </task>
-    <task id="LOCAL-00004" summary="update read numbers function">
-      <created>1564485065898</created>
+    <task id="LOCAL-00004" summary="update README.md for AmazeUIBlog branch">
+      <created>1593829012914</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1564485065898</updated>
+      <updated>1593829012914</updated>
     </task>
-    <task id="LOCAL-00005" summary="update praise function">
-      <created>1564797448633</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1564797448633</updated>
-    </task>
-    <task id="LOCAL-00006" summary="update register &amp; login &amp; logout">
-      <created>1564839817384</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1564839817384</updated>
-    </task>
-    <task id="LOCAL-00007" summary="update DjangoUeditor support">
-      <created>1564841271138</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1564841271138</updated>
-    </task>
-    <task id="LOCAL-00008" summary="fixed bug: can't enter article detail page when click article image on category page">
-      <created>1564842010150</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1564842010150</updated>
-    </task>
-    <task id="LOCAL-00009" summary="first sync project">
-      <created>1568275917777</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1568275917777</updated>
-    </task>
-    <task id="LOCAL-00010" summary="add paginator function by paginate_by attribute">
-      <created>1568278310750</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1568278310750</updated>
-    </task>
-    <task id="LOCAL-00011" summary="modify index for ListView ways and modify paginator">
-      <created>1568279555000</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1568279555000</updated>
-    </task>
-    <task id="LOCAL-00012" summary="modify article category list as ListView ways and modify paginator">
-      <created>1568281053534</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1568281053535</updated>
-    </task>
-    <task id="LOCAL-00013" summary="modify click big category show list as ListView ways">
-      <created>1568289133767</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1568289133767</updated>
-    </task>
-    <task id="LOCAL-00014" summary="update requirement.txt">
-      <created>1568289901183</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1568289901183</updated>
-    </task>
-    <task id="LOCAL-00015" summary="update html get url by model's get_absolute_url">
-      <created>1568293674507</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1568293674507</updated>
-    </task>
-    <task id="LOCAL-00016" summary="update html page title show">
-      <created>1568295276981</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1568295276981</updated>
-    </task>
-    <task id="LOCAL-00017" summary="modify big category models to control menu show item.">
-      <created>1573555869043</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1573555869043</updated>
-    </task>
-    <task id="LOCAL-00018" summary="update requirement for add django-simpleui==3.3">
-      <created>1573555997083</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1573555997083</updated>
-    </task>
-    <task id="LOCAL-00019" summary="update django admin to django-simpleui">
-      <created>1573556148023</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1573556148023</updated>
-    </task>
-    <option name="localTasksCounter" value="20" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217986000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22390318" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32914925" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3252818" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.39944133" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="manage.py@newblog" order="7" weight="0.3252818" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32960895" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.39944133" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3282123" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.3282123" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18498659" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32914925" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32914925" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39888424" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="manage.py@newblog" order="7" visible="true" weight="0.32914925" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32914925" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32914925" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -593,353 +317,80 @@
       </list>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Beta1.0" />
-    <MESSAGE value="update read numbers function" />
-    <MESSAGE value="update praise function" />
-    <MESSAGE value="update register &amp; login &amp; logout" />
-    <MESSAGE value="update DjangoUeditor support" />
-    <MESSAGE value="fixed bug: can't enter article detail page when click article image on category page" />
-    <MESSAGE value="first sync project" />
-    <MESSAGE value="add paginator function by paginate_by attribute" />
-    <MESSAGE value="modify index for ListView ways and modify paginator" />
-    <MESSAGE value="modify article category list as ListView ways and modify paginator" />
-    <MESSAGE value="modify click big category show list as ListView ways" />
-    <MESSAGE value="update requirement.txt" />
-    <MESSAGE value="update html get url by model's get_absolute_url" />
-    <MESSAGE value="update html page title show" />
-    <MESSAGE value="modify big category models to control menu show item." />
-    <MESSAGE value="update requirement for add django-simpleui==3.3" />
-    <MESSAGE value="update django admin to django-simpleui" />
-    <option name="LAST_COMMIT_MESSAGE" value="update django admin to django-simpleui" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/blog/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/1.html" />
-    <entry file="file://D:/Anaconda3/envs/py3/Lib/site-packages/django/urls/resolvers.py" />
-    <entry file="file://D:/Anaconda3/envs/py3/Lib/site-packages/django/db/models/query.py" />
-    <entry file="file://$PROJECT_DIR$/apps/blog/templatetags/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/unslider.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/page-list.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/reset.css" />
-    <entry file="file://$PROJECT_DIR$/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="78549" selection-start-column="78542" selection-end-column="78549" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jquery.fitvids.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog-online/static/js/jquery.fitvids.js" />
-    <entry file="file://$PROJECT_DIR$/static/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="3712" selection-start-line="5" selection-start-column="3712" selection-end-line="5" selection-end-column="3712" />
-          <folding>
-            <element signature="e#0#6#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="68" column="9" selection-start-line="16" selection-end-line="68" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/addlike.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda3/envs/py3/Lib/site-packages/django/contrib/auth/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/static/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="326" column="16" lean-forward="true" selection-start-line="326" selection-start-column="16" selection-end-line="326" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/send_success.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/password_reset.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" column="65" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="356" column="46" lean-forward="true" selection-start-line="356" selection-start-column="46" selection-end-line="356" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/utils/email_send.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#23#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/forgetpwd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/php/config.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requietment.txt" />
-    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1452">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="31" column="74" selection-start-line="31" selection-start-column="74" selection-end-line="31" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="102" column="14" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/envs/django2/Lib/site-packages/django/forms/boundfield.py" />
-    <entry file="file://$PROJECT_DIR$/newblog/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#224#233#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/envs/django2/Lib/site-packages/django/core/paginator.py" />
-    <entry file="file://$PROJECT_DIR$/templates/article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="925" column="64" selection-start-line="925" selection-start-column="64" selection-end-line="925" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1246">
-          <caret line="68" column="25" lean-forward="true" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/resources.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/reward.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/exchange.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/message.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/question.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cooperation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/categorypage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base_right.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="128" column="16" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5654">
-          <caret line="266" column="22" selection-start-line="266" selection-start-column="22" selection-end-line="266" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="50" column="84" selection-start-line="50" selection-start-column="84" selection-end-line="50" selection-end-column="84" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/blog/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/blog/templatetags/blog_tags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newblog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="43" column="77" lean-forward="true" selection-start-line="43" selection-start-column="77" selection-end-line="43" selection-end-column="77" />
-          <folding>
-            <element signature="e#684#730#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="259" column="75" lean-forward="true" selection-start-line="259" selection-start-column="75" selection-end-line="259" selection-end-column="75" />
-          <folding>
-            <element signature="e#11938#11944#0#HTML" expanded="true" />
-            <element signature="e#11944#11950#0#HTML" expanded="true" />
-            <element signature="e#11950#11956#0#HTML" expanded="true" />
-            <element signature="e#11956#11962#0#HTML" expanded="true" />
-            <element signature="e#11962#11968#0#HTML" expanded="true" />
-            <element signature="e#11968#11974#0#HTML" expanded="true" />
-            <element signature="e#12580#12586#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="65" column="32" lean-forward="true" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newblog/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="198" column="70" selection-start-line="198" selection-start-column="70" selection-end-line="198" selection-end-column="70" />
-          <folding>
-            <element signature="e#312#321#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update readme.md" />
+    <MESSAGE value="remove spring count down" />
+    <MESSAGE value="update test" />
+    <MESSAGE value="update README.md for AmazeUIBlog branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md for AmazeUIBlog branch" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586759348196">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1586759348196" />
+    <state x="390" y="0" key="CommitChangelistDialog2" timestamp="1593829012150">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="390" y="0" key="CommitChangelistDialog2/0.0.1280.689/1920.0.1920.1050@0.0.1280.689" timestamp="1593829012150" />
+    <state x="2505" y="95" key="CommitChangelistDialog2/0.0.1280.689/1920.0.1920.1050@1920.0.1920.1050" timestamp="1593504927524" />
+    <state x="2552" y="152" key="FileChooserDialogImpl" timestamp="1593413328140">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2552" y="152" key="FileChooserDialogImpl/0.0.1280.689/1920.0.1920.1050@1920.0.1920.1050" timestamp="1593413328140" />
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1586759018327" />
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1593827619275">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689/1920.0.1920.1050@0.0.1280.689" timestamp="1593827619275" />
+    <state width="1877" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689/1920.0.1920.1050@1920.0.1920.1050" timestamp="1593508429901" />
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1586761916931" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1593827619274">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689/1920.0.1920.1050@0.0.1280.689" timestamp="1593827619274" />
+    <state width="1877" height="166" key="GridCell.Tab.0.center/0.0.1280.689/1920.0.1920.1050@1920.0.1920.1050" timestamp="1593508429900" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1586761916931" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1593827619274">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689/1920.0.1920.1050@0.0.1280.689" timestamp="1593827619274" />
+    <state width="1877" height="166" key="GridCell.Tab.0.left/0.0.1280.689/1920.0.1920.1050@1920.0.1920.1050" timestamp="1593508429900" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1586761916931" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1593827619275">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689/1920.0.1920.1050@0.0.1280.689" timestamp="1593827619275" />
+    <state width="1877" height="166" key="GridCell.Tab.0.right/0.0.1280.689/1920.0.1920.1050@1920.0.1920.1050" timestamp="1593508429901" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1586761916931" />
+    <state x="368" y="130" key="Vcs.Push.Dialog.v2" timestamp="1593829015212">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="368" y="130" key="Vcs.Push.Dialog.v2/0.0.1280.689/1920.0.1920.1050@0.0.1280.689" timestamp="1593829015212" />
+    <state x="2472" y="258" key="Vcs.Push.Dialog.v2/0.0.1280.689/1920.0.1920.1050@1920.0.1920.1050" timestamp="1593504935601" />
+    <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593768294136">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.689/1920.0.1920.1050@0.0.1280.689" timestamp="1593768294136" />
+    <state x="366" y="134" key="git4idea.merge.GitPullDialog" timestamp="1593768361784">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="366" y="134" key="git4idea.merge.GitPullDialog/0.0.1280.689/1920.0.1920.1050@0.0.1280.689" timestamp="1593768361784" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/blog_django2$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1586760461810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/blog_django2$Test__apps_blog_tests_test_smoke_SmokeTestCase.coverage" NAME="Test: apps.blog.tests.test_smoke.SmokeTestCase Coverage Results" MODIFIED="1586760425572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/blog_django2$Test__blog.coverage" NAME="Test: blog Coverage Results" MODIFIED="1586759721893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
