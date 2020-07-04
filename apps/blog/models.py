@@ -108,7 +108,7 @@ class Article(models.Model):
     keywords = models.ManyToManyField(Keywords, default="", blank=True, verbose_name="关键字")
     author = models.ForeignKey(UserPro, default="", verbose_name="作者", on_delete=models.SET_DEFAULT)
     title = models.CharField(max_length=30, default="", verbose_name="文章标题")
-    description = models.TextField(default="",blank=True, verbose_name="文章简介")
+    description = models.TextField(default="", blank=True, verbose_name="文章简介")
     body = models.TextField(default="", verbose_name="文章内容")
     # body = UEditorField(width=900, height=600, toolbars="full", default="", imagePath="images/%(basename)s_%(datetime)s.%(extname)s",
     #                     filePath="files/",verbose_name="文章内容")
